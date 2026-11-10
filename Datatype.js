@@ -1,4 +1,4 @@
-console.log("hello world");
+console.log("HELLO ABDULRAHMON");
 
 /*
 javascript Data Types
@@ -24,7 +24,32 @@ console.log(typeof road);
 console.log(typeof age);
 
 //Object
-let ColorTea = ["lemon tea", "Apple tea", "Orange tea", "oolong tea"];
-let user = {Firstname: "Olaoluwa", Lastname: "Adeola"};
+let ColorTea = ["lemon tea", "Apple tea", "Orange tea", "oolong tea"]; // Array
+let user = {Firstname: "Olaoluwa", Lastname: "Adeola"}; // Object
 console.log(ColorTea);
 console.log(user);
+
+//Boolean 
+let isLoggedIn = true;
+console.log(isLoggedIn);
+console.log(typeof isLoggedIn);
+
+//Null
+let emptyValue = null;
+console.log(emptyValue);
+console.log(typeof emptyValue);
+
+//Undefined
+let undefinedValue;
+console.log(undefinedValue);
+console.log(typeof undefinedValue);
+
+//symbol
+let symbolValue = Symbol("This is a symbol");
+console.log(symbolValue);
+console.log(typeof symbolValue);
+
+//BigInt
+let bigIntValue = 123456789102121334252425585979879;
+console.log(bigIntValue);
+console.log(bigIntValue);
