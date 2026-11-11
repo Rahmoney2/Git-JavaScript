@@ -16,9 +16,19 @@ Null
 let road = "12";
 console.log(road);
 
+// Concatenation
+let greeting = "Hello, " + "Abdulrahmon!";
+console.log(greeting);
+
+let welcomeMessage = `welcome, Abdulrahmon!`;
+console.log(welcomeMessage);
+
 //Number
 let age = 20;
-console.log(age);
+console.log(`user age is : ${age}`);
+
+
+
 
 console.log(typeof road);
 console.log(typeof age);
